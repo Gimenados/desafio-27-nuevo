@@ -1,13 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.blogs.es/332547/terror2022/1366_2000.jpeg);
+  margin: 0; /* Eliminar los márgenes predeterminados */
+  font-family: "M PLUS 1 Code", monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* HOME */
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex-direction: column;
+}
+
+.home-container, .catalog-container, .movie-container {
+  background-color: #000000ed;
+  padding: 2rem;
+  height: 100vh;
+  color: aliceblue;
+  box-shadow: 10px 10px 15px 10px rgba(33, 32, 32, 0.778);
+}
+
+.home-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+input {
+  border: none;
+  font-size: 1rem;
+  border-bottom: 1px solid white;
+  background-color: #15181800;
+  margin-bottom: 1rem;
+  color: white;
+  padding: 0.4rem;
+}
+
+a {
+  background-color: rgb(115, 33, 33);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+}
+
+a:hover {
+  font-size: 1.1rem;
+  background-color: rgb(200, 53, 53);
+}
+
+/* CATALOGO */
+
+ul {
+  padding-left: 0rem !important;
+}
+
+.movie-list li {
+  padding: 1.1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  border-bottom: 1px solid white;
+}
+
+.btn {
+  margin-top: 0.8rem !important;
+}
+
+.button-container {
+  margin-top: 2.2rem !important;
+}
+
+/* MOVIEDETAIL */
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
 }
