@@ -17,8 +17,8 @@ body {
   flex-direction: column;
 }
 
-.catalog-container {
-  /* height: 100vh !important; */
+.movie-container {
+  height: 100vh !important;
 }
 
 .home-container, .catalog-container, .movie-container {
