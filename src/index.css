@@ -9,18 +9,21 @@ body {
 /* HOME */
 
 .home-container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   margin: 0;
   flex-direction: column;
+}
+
+.catalog-container {
+  /* height: 100vh !important; */
 }
 
 .home-container, .catalog-container, .movie-container {
   background-color: #000000ed;
   padding: 2rem;
-  height: 100vh;
   color: aliceblue;
   box-shadow: 10px 10px 15px 10px rgba(33, 32, 32, 0.778);
 }
